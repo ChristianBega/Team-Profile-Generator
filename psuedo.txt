@@ -1,0 +1,44 @@
+
+Inquirer prompt :: 
+
+START
+1. Please enter the team manager’s :
+  a. name
+  b. ID
+  c. email 
+  d. office number
+
+THEN
+
+2. Choose another team member to create: 
+  a. Options : Engineer || Intern || finish building team
+
+THEN 
+
+3. Please enter the Engineers information : 
+  a. name
+  b. ID
+  c. email
+  d. Github username
+
+THEN
+
+4. Choose another team member to create: 
+  a. Options : Engineer || Intern || finish building team
+
+THEN 
+
+5. Please enter the intern's information : 
+  a. name
+  b. ID
+  c. email
+  d. school
+
+THEN 
+
+6. 2. Choose another team member to create: 
+  a. Options : Engineer || Intern || finish building team
+
+END - HTML is generated
+
+
