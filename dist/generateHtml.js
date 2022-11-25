@@ -45,7 +45,6 @@ function generateHtml(resTeam) {
           <li class="list-group-item">School: ${resIntern.getSchool()}</li>
         </ul>
     </div>
-
     `;
   }
 
@@ -53,7 +52,7 @@ function generateHtml(resTeam) {
   dom.push(resTeam.filter((x) => x.getRole() === "Manager").map((y) => manager(y)));
   dom.push(resTeam.filter((x) => x.getRole() === "Engineer").map((y) => engineer(y)));
   dom.push(resTeam.filter((x) => x.getRole() === "Intern").map((y) => intern(y)));
-  return dom.join("");
+  return dom.join();
 }
 
 module.exports = (res) => {
