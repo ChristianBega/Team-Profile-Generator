@@ -42,7 +42,7 @@ npm run test
 
 ## Usage
 
-![Alt text](../Team-Profile-Generator/images/teamgenerator.png)
+![Alt text](images/teamgenerator.png)
 
 ---
 
