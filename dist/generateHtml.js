@@ -9,7 +9,7 @@ function generateHtml(resTeam) {
         </div>
         <ul class="list-group px-3 my-auto">
           <li class="list-group-item">ID: ${resManager.getId()}</li>
-          <li class="list-group-item">Email: <a href="#">${resManager.getEmail()}</a></li>
+          <li class="list-group-item">Email: <a href ="mailto: ${resManager.getEmail()}">${resManager.getEmail()}</a></li>
           <li class="list-group-item">Office Number: ${resManager.getOffice()}</li>
         </ul>
     </div>
@@ -25,8 +25,8 @@ function generateHtml(resTeam) {
         </div>
         <ul class="list-group px-3 my-auto">
           <li class="list-group-item">ID: ${resEngineer.getId()}</li>
-          <li class="list-group-item">Email: <a href="#">${resEngineer.getEmail()}</a></li>
-          <li class="list-group-item">Github: <a href="#">${resEngineer.getGitHub()}</a></li>
+          <li class="list-group-item">Email: <a href="mailto: ${resEngineer.getEmail()}">${resEngineer.getEmail()}</a></li>
+          <li class="list-group-item">Github: <a href="https://github.com/${resEngineer.getGitHub()}">${resEngineer.getGitHub()} target="_blank"</a></li>
         </ul>
     </div>
     `;
